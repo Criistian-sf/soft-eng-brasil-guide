@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container flex items-center justify-between h-16">
         <div className="flex items-center gap-2">
           <Code className="h-6 w-6 text-accent" />
-          <span className="font-bold text-xl">EngSoftware.Brasil</span>
+          <span className="font-bold text-xl">Engenharia de Software</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
