@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#o-que-faz" className="hover:text-accent transition-colors">O Profissional</a>
+          <a href="#o-que-faz" className="hover:text-accent transition-colors">Profissional</a>
           <a href="#tecnologias" className="hover:text-accent transition-colors">Tecnologias</a>
           <a href="#certificacoes" className="hover:text-accent transition-colors">Certificações</a>
           <a href="#salarios" className="hover:text-accent transition-colors">Salários</a>
