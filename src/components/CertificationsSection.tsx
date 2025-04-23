@@ -7,57 +7,57 @@ const CertificationsSection = () => {
   const certifications = {
     programming: [
       {
-        name: "Oracle Certified Professional: Java SE Programmer",
+        name: "Certificado Programador Java SE",
         description: "Para quem trabalha com Java em aplicações corporativas."
       },
       {
-        name: "Microsoft Certified: Azure Developer Associate",
+        name: "Certificado Microsoft: Desenvolvedor Associado do Azure",
         description: "Foca em desenvolvimento de aplicações e serviços na nuvem Azure."
       },
       {
-        name: "AWS Certified Developer – Associate",
+        name: "Desenvolvedor Certificado AWS – Associado",
         description: "Reconhece desenvolvedores que criam soluções escaláveis na AWS."
       },
       {
-        name: "Google Professional Cloud Developer",
+        name: "Desenvolvedor de nuvem profissional do Google",
         description: "Para desenvolvedores que constroem e escalam sistemas na nuvem GCP."
       },
       {
-        name: "Microsoft Certified: .NET Developer",
-        description: "Para profissionais que atuam com C# e a plataforma .NET."
+        name: "Certificado pela Microsoft: Desenvolvedor.NET",
+        description: "Para profissionais que atuam com C# e a plataforma.NET."
       }
     ],
     testing: [
       {
-        name: "ISTQB – Certified Tester",
+        name: "ISTQB – Certificado",
         description: "Certificação internacional para profissionais de teste de software."
       }
     ],
     devops: [
       {
-        name: "AWS Certified DevOps Engineer",
+        name: "Engenheiro Desenvolvedor Certificado pela AWS",
         description: "Para profissionais que implementam práticas de CI/CD na AWS."
       },
       {
-        name: "Azure DevOps Engineer Expert",
+        name: "Engenheiro especialista em Azure",
         description: "Para especialistas em DevOps na plataforma Azure."
       },
       {
-        name: "Docker Certified Associate",
+        name: "Associado Certificado Docker",
         description: "Valida conhecimentos em containerização com Docker."
       },
       {
-        name: "Certified Kubernetes Application Developer (CKAD)",
+        name: "Desenvolvedor Certificado de Aplicativos Kubernetes",
         description: "Para desenvolvedores que trabalham com Kubernetes."
       }
     ],
     version: [
       {
-        name: "GitLab Certified Associate",
+        name: "Associado Certificado GitLab",
         description: "Valida conhecimentos em GitLab CI/CD e repositórios."
       },
       {
-        name: "Jenkins Certification",
+        name: "Certificação Jenkins",
         description: "Para profissionais que trabalham com Jenkins para CI/CD."
       }
     ]
