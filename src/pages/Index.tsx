@@ -9,6 +9,7 @@ import SalarySection from '@/components/SalarySection';
 import CompaniesSection from '@/components/CompaniesSection';
 import ChallengesSection from '@/components/ChallengesSection';
 import SdgSection from '@/components/SdgSection';
+import CourseSection from '@/components/CourseSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <WhatTheyDo />
+        <CourseSection />
         <TechnologiesSection />
         <CertificationsSection />
         <SalarySection />

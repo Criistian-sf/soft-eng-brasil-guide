@@ -10,16 +10,21 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20 md:py-32">
+    <div className="relative bg-gradient-to-br from-violet-500 via-indigo-500 to-purple-600 py-20 md:py-32">
       <div className="container flex flex-col items-center text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-          Guia Completo de<br/> 
-          <span className="text-accent">Engenharia de Software</span>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">
+          Engenharia de Software
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mb-10 animate-fade-in">
-          Tudo o que você precisa saber sobre a carreira, tecnologias, salários e oportunidades para se destacar no mercado brasileiro e global.
+        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mb-10 animate-fade-in leading-relaxed">
+          O ramo da computação que desenvolve sistemas de forma sistemática e eficiente. 
+          Aplicamos princípios da engenharia, matemática e ciência da computação para criar 
+          soluções que vão muito além do código.
         </p>
-        <Button onClick={scrollToSection} size="lg" className="group animate-fade-in">
+        <Button 
+          onClick={scrollToSection} 
+          size="lg" 
+          className="group animate-fade-in bg-white text-violet-700 hover:bg-white/90"
+        >
           Explorar
           <ArrowDown className="ml-2 h-4 w-4 group-hover:animate-bounce" />
         </Button>
