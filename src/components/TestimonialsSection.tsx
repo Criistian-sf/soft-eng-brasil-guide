@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Youtube, MessageSquare, Wikipedia } from 'lucide-react';
+import { FileText, Youtube, ExternalLink, MessageSquare, Wikipedia } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -74,21 +73,6 @@ const TestimonialsSection = () => {
       <div className="max-w-4xl mx-auto">
         <Card className="border-violet-200 mb-8">
           <CardHeader>
-            <CardTitle>Conclusão</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-gray-700 mb-4">
-              A Engenharia de Software <strong>não é apenas uma área técnica</strong> – ela é uma 
-              <strong> ferramenta estratégica para o desenvolvimento sustentável e inovador</strong> de 
-              países e empresas. Ao aplicar soluções inteligentes e escaláveis, os engenheiros de 
-              software estão diretamente <strong>construindo o futuro da indústria e infraestrutura 
-              global</strong> — alinhados ao ODS 9.
-            </p>
-          </CardContent>
-        </Card>
-
-        <Card className="border-violet-200 mb-8">
-          <CardHeader>
             <CardTitle>Projeto de Graduação</CardTitle>
           </CardHeader>
           <CardContent>
@@ -125,6 +109,7 @@ const TestimonialsSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-violet-600 hover:text-violet-700"
               >
+                <ExternalLink className="h-5 w-5" />
                 GitHub
               </a>
               <a
@@ -133,6 +118,7 @@ const TestimonialsSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-violet-600 hover:text-violet-700"
               >
+                <ExternalLink className="h-5 w-5" />
                 LinkedIn
               </a>
             </div>
