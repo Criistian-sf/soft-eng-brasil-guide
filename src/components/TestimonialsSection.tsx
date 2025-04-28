@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Youtube, ExternalLink, MessageSquare, Wikipedia } from 'lucide-react';
+import { FileText, Youtube, ExternalLink, MessageSquare, BookOpen } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -26,7 +27,7 @@ const TestimonialsSection = () => {
       quote: "Leonardo Gonçalves Pinheiro é um brasileiro reconhecido pelo seu trabalho como Engenheiro de Software. Natural de Almenara/MG, iniciou sua trajetória educacional no Instituto Federal Norte de Minas Gerais (IFNMG), onde cursou o Ensino Médio e teve seu primeiro contato profundo com a tecnologia.",
       source: "Wikipedia – Leonardo Gonçalves Pinheiro",
       sourceLink: "https://pt.wikipedia.org/wiki/Leonardo_Gon%C3%A7alves_Pinheiro",
-      icon: <Wikipedia className="h-5 w-5 text-violet-600" />
+      icon: <BookOpen className="h-5 w-5 text-violet-600" />
     },
     {
       name: "Joaquim Sintra de Olívares",
@@ -34,7 +35,7 @@ const TestimonialsSection = () => {
       quote: "Joaquim Sintra de Olívares é um engenheiro de software brasileiro. Conhecido por sua atuação no desenvolvimento de plataformas educacionais acessíveis, ele se destacou na criação de soluções voltadas para a inclusão digital e aprendizado online.",
       source: "Wikipedia – Joaquim Sintra de Olívares",
       sourceLink: "https://pt.wikipedia.org/wiki/Joaquim_Sintra_de_Ol%C3%ADvares",
-      icon: <Wikipedia className="h-5 w-5 text-violet-600" />
+      icon: <BookOpen className="h-5 w-5 text-violet-600" />
     }
   ];
 
